@@ -14,6 +14,7 @@
 		A4180EE62BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180EE52BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderTests.swift */; };
 		A4180EF02BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180EEF2BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift */; };
 		A4180EF22BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180EF12BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift */; };
+		A4D97DCB2BCAD01100B81A89 /* FarmJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D97DCA2BCAD01100B81A89 /* FarmJob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A4180EEB2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheng'sTraineeFarmJobsFinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4180EEF2BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheng_sTraineeFarmJobsFinderUITests.swift; sourceTree = "<group>"; };
 		A4180EF12BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4D97DCA2BCAD01100B81A89 /* FarmJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmJob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		A4180ED32BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder */ = {
 			isa = PBXGroup;
 			children = (
+				A4D97DCA2BCAD01100B81A89 /* FarmJob.swift */,
 				A4180ED42BCA88020017DB17 /* Cheng_sTraineeFarmJobsFinderApp.swift */,
 				A4180ED62BCA88020017DB17 /* ContentView.swift */,
 				A4180ED82BCA88090017DB17 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4180ED72BCA88020017DB17 /* ContentView.swift in Sources */,
+				A4D97DCB2BCAD01100B81A89 /* FarmJob.swift in Sources */,
 				A4180ED52BCA88020017DB17 /* Cheng_sTraineeFarmJobsFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
