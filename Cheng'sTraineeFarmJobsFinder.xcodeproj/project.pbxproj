@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4180ED52BCA88020017DB17 /* Cheng_sTraineeFarmJobsFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180ED42BCA88020017DB17 /* Cheng_sTraineeFarmJobsFinderApp.swift */; };
+		A4180ED72BCA88020017DB17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180ED62BCA88020017DB17 /* ContentView.swift */; };
+		A4180ED92BCA88090017DB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4180ED82BCA88090017DB17 /* Assets.xcassets */; };
+		A4180EDC2BCA88090017DB17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4180EDB2BCA88090017DB17 /* Preview Assets.xcassets */; };
+		A4180EE62BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180EE52BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderTests.swift */; };
+		A4180EF02BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180EEF2BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift */; };
+		A4180EF22BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180EF12BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4180EE22BCA88090017DB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4180EC92BCA88020017DB17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4180ED02BCA88020017DB17;
+			remoteInfo = "Cheng'sTraineeFarmJobsFinder";
+		};
+		A4180EEC2BCA88090017DB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4180EC92BCA88020017DB17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4180ED02BCA88020017DB17;
+			remoteInfo = "Cheng'sTraineeFarmJobsFinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4180ED12BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheng'sTraineeFarmJobsFinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4180ED42BCA88020017DB17 /* Cheng_sTraineeFarmJobsFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheng_sTraineeFarmJobsFinderApp.swift; sourceTree = "<group>"; };
+		A4180ED62BCA88020017DB17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4180ED82BCA88090017DB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4180EDB2BCA88090017DB17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4180EE12BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheng'sTraineeFarmJobsFinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4180EE52BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheng_sTraineeFarmJobsFinderTests.swift; sourceTree = "<group>"; };
+		A4180EEB2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheng'sTraineeFarmJobsFinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4180EEF2BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheng_sTraineeFarmJobsFinderUITests.swift; sourceTree = "<group>"; };
+		A4180EF12BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4180ECE2BCA88020017DB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4180EDE2BCA88090017DB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4180EE82BCA88090017DB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4180EC82BCA88020017DB17 = {
+			isa = PBXGroup;
+			children = (
+				A4180ED32BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder */,
+				A4180EE42BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderTests */,
+				A4180EEE2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests */,
+				A4180ED22BCA88020017DB17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4180ED22BCA88020017DB17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4180ED12BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder.app */,
+				A4180EE12BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderTests.xctest */,
+				A4180EEB2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4180ED32BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder */ = {
+			isa = PBXGroup;
+			children = (
+				A4180ED42BCA88020017DB17 /* Cheng_sTraineeFarmJobsFinderApp.swift */,
+				A4180ED62BCA88020017DB17 /* ContentView.swift */,
+				A4180ED82BCA88090017DB17 /* Assets.xcassets */,
+				A4180EDA2BCA88090017DB17 /* Preview Content */,
+			);
+			path = "Cheng'sTraineeFarmJobsFinder";
+			sourceTree = "<group>";
+		};
+		A4180EDA2BCA88090017DB17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4180EDB2BCA88090017DB17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4180EE42BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4180EE52BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderTests.swift */,
+			);
+			path = "Cheng'sTraineeFarmJobsFinderTests";
+			sourceTree = "<group>";
+		};
+		A4180EEE2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4180EEF2BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift */,
+				A4180EF12BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift */,
+			);
+			path = "Cheng'sTraineeFarmJobsFinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4180ED02BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4180EF52BCA88090017DB17 /* Build configuration list for PBXNativeTarget "Cheng'sTraineeFarmJobsFinder" */;
+			buildPhases = (
+				A4180ECD2BCA88020017DB17 /* Sources */,
+				A4180ECE2BCA88020017DB17 /* Frameworks */,
+				A4180ECF2BCA88020017DB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cheng'sTraineeFarmJobsFinder";
+			productName = "Cheng'sTraineeFarmJobsFinder";
+			productReference = A4180ED12BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4180EE02BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4180EF82BCA88090017DB17 /* Build configuration list for PBXNativeTarget "Cheng'sTraineeFarmJobsFinderTests" */;
+			buildPhases = (
+				A4180EDD2BCA88090017DB17 /* Sources */,
+				A4180EDE2BCA88090017DB17 /* Frameworks */,
+				A4180EDF2BCA88090017DB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4180EE32BCA88090017DB17 /* PBXTargetDependency */,
+			);
+			name = "Cheng'sTraineeFarmJobsFinderTests";
+			productName = "Cheng'sTraineeFarmJobsFinderTests";
+			productReference = A4180EE12BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4180EEA2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4180EFB2BCA88090017DB17 /* Build configuration list for PBXNativeTarget "Cheng'sTraineeFarmJobsFinderUITests" */;
+			buildPhases = (
+				A4180EE72BCA88090017DB17 /* Sources */,
+				A4180EE82BCA88090017DB17 /* Frameworks */,
+				A4180EE92BCA88090017DB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4180EED2BCA88090017DB17 /* PBXTargetDependency */,
+			);
+			name = "Cheng'sTraineeFarmJobsFinderUITests";
+			productName = "Cheng'sTraineeFarmJobsFinderUITests";
+			productReference = A4180EEB2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4180EC92BCA88020017DB17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A4180ED02BCA88020017DB17 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A4180EE02BCA88090017DB17 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4180ED02BCA88020017DB17;
+					};
+					A4180EEA2BCA88090017DB17 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4180ED02BCA88020017DB17;
+					};
+				};
+			};
+			buildConfigurationList = A4180ECC2BCA88020017DB17 /* Build configuration list for PBXProject "Cheng'sTraineeFarmJobsFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4180EC82BCA88020017DB17;
+			productRefGroup = A4180ED22BCA88020017DB17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4180ED02BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder */,
+				A4180EE02BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderTests */,
+				A4180EEA2BCA88090017DB17 /* Cheng'sTraineeFarmJobsFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4180ECF2BCA88020017DB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4180EDC2BCA88090017DB17 /* Preview Assets.xcassets in Resources */,
+				A4180ED92BCA88090017DB17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4180EDF2BCA88090017DB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4180EE92BCA88090017DB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4180ECD2BCA88020017DB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4180ED72BCA88020017DB17 /* ContentView.swift in Sources */,
+				A4180ED52BCA88020017DB17 /* Cheng_sTraineeFarmJobsFinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4180EDD2BCA88090017DB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4180EE62BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4180EE72BCA88090017DB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4180EF02BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITests.swift in Sources */,
+				A4180EF22BCA88090017DB17 /* Cheng_sTraineeFarmJobsFinderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4180EE32BCA88090017DB17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4180ED02BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder */;
+			targetProxy = A4180EE22BCA88090017DB17 /* PBXContainerItemProxy */;
+		};
+		A4180EED2BCA88090017DB17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4180ED02BCA88020017DB17 /* Cheng'sTraineeFarmJobsFinder */;
+			targetProxy = A4180EEC2BCA88090017DB17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4180EF32BCA88090017DB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4180EF42BCA88090017DB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4180EF62BCA88090017DB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cheng'sTraineeFarmJobsFinder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuncheng.Cheng-sTraineeFarmJobsFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4180EF72BCA88090017DB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cheng'sTraineeFarmJobsFinder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuncheng.Cheng-sTraineeFarmJobsFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4180EF92BCA88090017DB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuncheng.Cheng-sTraineeFarmJobsFinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheng'sTraineeFarmJobsFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cheng'sTraineeFarmJobsFinder";
+			};
+			name = Debug;
+		};
+		A4180EFA2BCA88090017DB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuncheng.Cheng-sTraineeFarmJobsFinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheng'sTraineeFarmJobsFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cheng'sTraineeFarmJobsFinder";
+			};
+			name = Release;
+		};
+		A4180EFC2BCA88090017DB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuncheng.Cheng-sTraineeFarmJobsFinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cheng'sTraineeFarmJobsFinder";
+			};
+			name = Debug;
+		};
+		A4180EFD2BCA88090017DB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuncheng.Cheng-sTraineeFarmJobsFinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cheng'sTraineeFarmJobsFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4180ECC2BCA88020017DB17 /* Build configuration list for PBXProject "Cheng'sTraineeFarmJobsFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4180EF32BCA88090017DB17 /* Debug */,
+				A4180EF42BCA88090017DB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4180EF52BCA88090017DB17 /* Build configuration list for PBXNativeTarget "Cheng'sTraineeFarmJobsFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4180EF62BCA88090017DB17 /* Debug */,
+				A4180EF72BCA88090017DB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4180EF82BCA88090017DB17 /* Build configuration list for PBXNativeTarget "Cheng'sTraineeFarmJobsFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4180EF92BCA88090017DB17 /* Debug */,
+				A4180EFA2BCA88090017DB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4180EFB2BCA88090017DB17 /* Build configuration list for PBXNativeTarget "Cheng'sTraineeFarmJobsFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4180EFC2BCA88090017DB17 /* Debug */,
+				A4180EFD2BCA88090017DB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4180EC92BCA88020017DB17 /* Project object */;
+}
