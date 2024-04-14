@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var farmJobsData: [FarmJob] = []
+    
     
     var body: some View {
         NavigationView {
@@ -66,14 +68,18 @@ struct ContentView: View {
                         
                         
                         ScrollView(.horizontal, showsIndicators: false) {
-                            LazyHGrid(rows: [GridItem(.fixed(50))], spacing: 10) {
-                                ForEach(0..<10) { index in
-                                    Rectangle()
-                                        .fill(Color.blue)
-                                        .frame(width: 50, height: 50)
-                                }
+//                            LazyHGrid(rows: [GridItem(.fixed(50))], spacing: 10) {
+//                                ForEach(0..<10) { index in
+//                                    Rectangle()
+//                                        .fill(Color.blue)
+//                                        .frame(width: 50, height: 50)
+//                                }
+//                            }
+//                            .padding(.horizontal, 16)
+                            
+                            ForEach(farmJobsData, id: \.city) { item in
+                                Text(item.farm_name) // 假設 YourStruct 中有一個叫做 name 的屬性
                             }
-                            .padding(.horizontal, 16)
                         }
                     }
                     .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0)) // 添加 padding
@@ -86,6 +92,20 @@ struct ContentView: View {
             .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0)) // 添加 padding
             .edgesIgnoringSafeArea(.all)
             
+        }
+        .onAppear {
+            // 在 ContentView 被顯示時執行 API 請求
+            fetchData { data, error in
+                if let error = error {
+                    print("Error fetching data: \(error)")
+                    return
+                }
+
+                if let data = data {
+                    // 將獲取到的資料存儲到 fetchedData 變數中
+                    farmJobsData = data
+                }
+            }
         }
     }
         
