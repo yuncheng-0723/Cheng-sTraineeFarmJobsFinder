@@ -64,3 +64,8 @@ func fetchData(completion: @escaping ([FarmJob]?, Error?) -> Void) {
         print("Invalid URL.")
     }
 }
+
+class DataManager {
+    
+    
+}

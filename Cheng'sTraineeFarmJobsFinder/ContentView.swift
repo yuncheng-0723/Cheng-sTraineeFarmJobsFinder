@@ -13,12 +13,10 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView{
-                
+            ScrollView {
                 GeometryReader { geometry in
-                    
                     VStack {
-                        
+
                         Rectangle()
                             .fill(Color(red: 73/255, green: 98/255, blue: 188/255))
                             .cornerRadius(15)
@@ -47,14 +45,15 @@ struct ContentView: View {
                             .padding(.horizontal, 20) // 添加水平間距
                             .fixedSize(horizontal: false, vertical: true) // 讓文字可以垂直擴展至所需大小
                         
-                        NavigationLink(destination: JobsPage()) {
-                            HStack {
-                                Text("最新職缺")
-                                    .font(.system(size: 20, weight: .bold)) // 設置字體大小和粗體
-                                    .foregroundColor(Color(red: 47/255, green: 37/255, blue: 101/255)) // 設置字體顏色
-                                    .padding(.leading, 16) // 左邊間距
+                        
+                        HStack {
+                            Text("最新職缺")
+                                .font(.system(size: 20, weight: .bold)) // 設置字體大小和粗體
+                                .foregroundColor(Color(red: 47/255, green: 37/255, blue: 101/255)) // 設置字體顏色
+                                .padding(.leading, 16) // 左邊間距
 
-                                Spacer()
+                            Spacer()
+                            NavigationLink(destination: JobsPage()) {
                                 
                                 Text("查看全部")
                                     .font(.system(size: 12)) // 設置字體大小
@@ -67,25 +66,26 @@ struct ContentView: View {
                         }
                         
                         
-                        ScrollView(.horizontal, showsIndicators: false) {
-//                            LazyHGrid(rows: [GridItem(.fixed(50))], spacing: 10) {
-//                                ForEach(0..<10) { index in
-//                                    Rectangle()
-//                                        .fill(Color.blue)
-//                                        .frame(width: 50, height: 50)
-//                                }
-//                            }
-//                            .padding(.horizontal, 16)
-                            
-                            ForEach(farmJobsData, id: \.city) { item in
-                                Text(item.farm_name) // 假設 YourStruct 中有一個叫做 name 的屬性
+                        ScrollView(.horizontal) { // 設置 ScrollView 的方向為水平方向
+                            HStack(spacing: 10) { // 水平排列方塊，並設置間距
+                                ForEach(farmJobsData.indices, id: \.self) { index in
+                                    let item = farmJobsData[index]
+                                    RoundedRectangle(cornerRadius: 15)
+                                        .fill(Color.white)
+                                        .shadow(radius: 5)
+                                        .frame(width: 200, height: 100) // 調整方塊的大
+                                        .overlay(
+                                            Text(item.farm_name) // 顯示資料中的 farm_name 屬性
+                                                .padding()
+                                        )
+                                }
+                                
                             }
+                            .padding()
                         }
                     }
-                    .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0)) // 添加 padding
-                    .clipShape(RoundedRectangle(cornerRadius: 30)) // 設置區塊圓角
-                    
-                    
+//                    .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0)) // 添加 padding
+//                    .clipShape(RoundedRectangle(cornerRadius: 30)) // 設置區塊圓角
                 }
                 
             }
