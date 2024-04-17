@@ -7,6 +7,60 @@
 
 import SwiftUI
 
+struct JobsBox: View {
+    var item:FarmJob
+    var width: CGFloat
+    var body: some View {
+        
+        RoundedRectangle(cornerRadius: 15)
+            .fill(Color.white)
+            .shadow(radius: 5)
+            .frame(width: width, height: 150) // 調整方塊的大
+            .overlay(
+                VStack(alignment: .leading){
+                    Text(item.city)
+                        .font(.system(size: 16, weight: .bold)) // 設置字體大小和粗體
+                        .foregroundColor(Color(red: 51/255, green: 40/255, blue: 104/255)) // 設置字體顏色
+                        .frame(width: 100, height: 40) // 設置按鈕大小
+                        .background(Color(red: 244/255, green: 235/255, blue: 235/255)) // 設置按鈕背景色
+                        .cornerRadius(20)
+                    
+                    Spacer()
+                    
+                    Text(item.farm_name) // 顯示資料中的 farm_name 屬性
+                        .font(.system(size: 18, weight: .bold))
+                        .foregroundColor(.black)
+                    
+                    Spacer()
+                    
+                    HStack {
+                        // 左邊圓形圖片
+                        Image("\(Int.random(in: 1...3))")
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                            .foregroundColor(Color(red: 202/255, green: 196/255, blue: 235/255))
+                            .overlay(
+                                Circle()
+                                    .stroke(Color(red: 202/255, green: 196/255, blue: 235/255), lineWidth: 2.5)
+                            )
+                        
+                        Spacer()
+                        
+                        // 右邊文字
+                        Text("\(item.demand_num)人")
+                            .font(.system(size: 16, weight: .bold))
+                            .foregroundColor(Color(red: 241/255, green: 145/255, blue: 75/255))
+                    }
+                    
+                    
+                    
+                }
+                    .padding()
+            )
+    }
+}
+
+
 struct ContentView: View {
     @State private var farmJobsData: [FarmJob] = []
     
@@ -70,52 +124,7 @@ struct ContentView: View {
                                     ForEach(farmJobsData.indices, id: \.self) { index in
                                         let item = farmJobsData[index]
                                         NavigationLink(destination: JobsDetailPage(item: item)) {
-                                            
-                                            RoundedRectangle(cornerRadius: 15)
-                                                .fill(Color.white)
-                                                .shadow(radius: 5)
-                                                .frame(width: 280, height: 150) // 調整方塊的大
-                                                .overlay(
-                                                    VStack(alignment: .leading){
-                                                        Text(item.city)
-                                                            .font(.system(size: 16, weight: .bold)) // 設置字體大小和粗體
-                                                            .foregroundColor(Color(red: 51/255, green: 40/255, blue: 104/255)) // 設置字體顏色
-                                                            .frame(width: 100, height: 40) // 設置按鈕大小
-                                                            .background(Color(red: 244/255, green: 235/255, blue: 235/255)) // 設置按鈕背景色
-                                                            .cornerRadius(20)
-                                                        
-                                                        Spacer()
-                                                        
-                                                        Text(item.farm_name) // 顯示資料中的 farm_name 屬性
-                                                            .font(.system(size: 18, weight: .bold))
-                                                            .foregroundColor(.black)
-                                                        
-                                                        Spacer()
-                                                        
-                                                        HStack {
-                                                            // 左邊圓形圖片
-                                                            Image("\(Int.random(in: 1...3))")
-                                                                .resizable()
-                                                                .frame(width: 30, height: 30)
-                                                                .foregroundColor(Color(red: 202/255, green: 196/255, blue: 235/255))
-                                                                .overlay(
-                                                                    Circle()
-                                                                        .stroke(Color(red: 202/255, green: 196/255, blue: 235/255), lineWidth: 2.5)
-                                                                )
-                                                            
-                                                            Spacer()
-                                                            
-                                                            // 右邊文字
-                                                            Text("\(item.demand_num)人")
-                                                                .font(.system(size: 16, weight: .bold))
-                                                                .foregroundColor(Color(red: 241/255, green: 145/255, blue: 75/255))
-                                                        }
-                                                        
-                                                        
-                                                        
-                                                    }
-                                                        .padding()
-                                                )
+                                            JobsBox(item: item, width: 280)
                                         }
                                         
                                         
@@ -145,15 +154,64 @@ struct ContentView: View {
                     }
                 }
             
-        }
+            }
 
     }
         
 }
 
 struct JobsPage: View {
+    @State private var farmJobsData: [FarmJob] = []
+    
     var body: some View {
-        Text("Jobs Page Content")
+        ScrollView {
+            HStack {
+                Spacer()
+                VStack{
+                    Text("職缺列表")
+                        .font(.system(size: 28, weight: .bold))
+                        .foregroundColor(Color(red: 47/255, green: 37/255, blue: 101/255))
+                        .padding()
+                    Text("共 \(farmJobsData.count) 筆職缺")
+                        .font(.system(size: 12)) // 設置字體大小
+                        .foregroundColor(Color(red: 240/255, green: 116/255, blue: 77/255)) // 設置字體顏色
+                        .frame(width: 150, height: 30) // 設置按鈕大小
+                        .background(Color(red: 244/255, green: 235/255, blue: 235/255)) // 設置按鈕背景色
+                        .cornerRadius(20) // 設置按鈕圓角
+                        .padding(.trailing, 16) // 右邊間距
+                }
+            }
+            ScrollView { // 設置 ScrollView 的方向為水平方向
+                VStack(spacing: 10) { // 水平排列方塊，並設置間距
+                    ForEach(farmJobsData.indices, id: \.self) { index in
+                        let item = farmJobsData[index]
+                        NavigationLink(destination: JobsDetailPage(item: item)) {
+                            JobsBox(item: item, width: .infinity)
+                        }
+                        
+                        
+                    }
+                    
+                }
+                .padding()
+            }
+            
+        }
+        .onAppear {
+            // 在 ContentView 被顯示時執行 API 請求
+            fetchData { data, error in
+                if let error = error {
+                    print("Error fetching data: \(error)")
+                    return
+                }
+
+                if let data = data {
+                    // 將獲取到的資料存儲到 fetchedData 變數中
+                    farmJobsData = data
+                }
+            }
+        
+        }
     }
 }
 
